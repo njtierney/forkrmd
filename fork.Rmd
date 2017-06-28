@@ -22,6 +22,8 @@ library(tidyverse)
 
 # Introduction
 
+JE FAIS CET AJOUT
+
 This is a simple analysis of the New York Air Quality Measurements using the R statistical programming language [@base]. As stated in the helpfile `?airquality`, this dataset contains:
 
 
@@ -42,7 +44,9 @@ It contains the following variables
 
 We are going to explore the relationship between solar radiation and other selected variables, solar radiation, wind, and temperature.
 
-# Method
+# Methodes
+
+J'AI CHANGE LE TITRE
 
 First, we tidy the names of the dataset, to provide information about the units of measurement for Ozone, Solar Radiation, Wind, and Temperature. We do this by renaming the variables and adding a suffix at the end to describe the units. To do this we use the `rename` function from the `dplyr` package[@dplyr].
 
