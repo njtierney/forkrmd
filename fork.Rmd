@@ -23,7 +23,7 @@ library(tidyverse)
 # Introduction
 
 This is a simple analysis of the New York Air Quality Measurements using the R statistical programming language [@base]. As stated in the helpfile `?airquality`, this dataset contains:
-
+ modificqtion
 
 > Daily air quality measurements in New York, May to September 1973.
 
