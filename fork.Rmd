@@ -10,7 +10,7 @@ Date: 2017/06/27
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,
-                      dev = "png")
+                      dev = c("png","svg"))
 ```
 
 ```{r library}
