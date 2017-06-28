@@ -3,15 +3,8 @@ title: "Rmarkdown example"
 author: "Nicholas Tierney"
 bibliography: packages.bib
 output:
-  pdf_document:
-    toc: yes
-  html_document:
-    keep_md: yes
-    toc: yes
-    toc_float: yes
-  word_document:
-    toc: yes
-csl: bmj.csl
+  github_document: default
+  html_notebook: default
 Date: 2017/06/27
 ---
 
@@ -134,7 +127,7 @@ We have explored the relationship of Ozone with other variables in the airqualit
 
 # References
 
-```{r write-references, include = FALSE}
+```{r write-references, include = FALSE, eval = FALSE}
 knitr::write_bib(c(
   .packages(), 
   "knitr", 
