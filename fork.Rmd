@@ -18,6 +18,7 @@ knitr::opts_chunk$set(echo = TRUE,
 library(tidyverse)
 
 ```
+Text added before introduction.
 
 
 # Introduction
@@ -123,7 +124,7 @@ We can also refer to individual results of the model inside the text. For exampl
 
 # Conclusion
 
-We have explored the relationship of Ozone with other variables in the airquality dataset
+We have explored the relationship of Ozone with other variables in the airquality dataset.
 
 # References
 
