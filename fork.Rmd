@@ -21,26 +21,8 @@ library(tidyverse)
 
 
 # Introduction
+GREAT TUTORIAL. Thanks Nick.
 
-This is a simple analysis of the New York Air Quality Measurements using the R statistical programming language [@base]. As stated in the helpfile `?airquality`, this dataset contains:
-
-
-> Daily air quality measurements in New York, May to September 1973.
-
-And the dataset is sourced from:
-
-> ... the New York State Department of Conservation (ozone data) and the National Weather Service (meteorological data).
-
-It contains the following variables
-
-- Ozone: Mean ozone in parts per billion from 1300 to 1500 hours at Roosevelt Island.
-- Solar.R: Solar radiation in Langleys in the frequency band 4000–7700 Angstroms from 0800 to 1200 hours at Central Park.
-- Wind: Average wind speed in miles per hour at 0700 and 1000 hours at LaGuardia Airport.
-- Temp: Maximum daily temperature in degrees Fahrenheit at La Guardia Airport.
-- Month: Month (1--12)
-- Day: Day of month (1--31)
-
-We are going to explore the relationship between solar radiation and other selected variables, solar radiation, wind, and temperature.
 
 # Method
 
