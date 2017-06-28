@@ -139,3 +139,5 @@ knitr::write_bib(c(
 prefix = getOption("knitr.bib.prefix", ""))
 ```
 
+
+A useless line
